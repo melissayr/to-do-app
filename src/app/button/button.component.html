@@ -1,0 +1,9 @@
+<button
+  class="custom-button"
+  [style.backgroundColor]="color"
+  (click)="onClick()"
+> 
+  {{ label }}
+</button>
+
+<app-button label="Anmelden" color="#3498db" (btnClick)="toggleAddTask()"></app-button>
